@@ -1,16 +1,20 @@
+// App.tsx
 import { Switch, Route, Router as WouterRouter, Link, useLocation } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import NotFound from "@/pages/not-found";
 import MapPage from "@/pages/MapPage";
 import RegionsPage from "@/pages/RegionsPage";
 import HandbookPage from "@/pages/HandbookPage";
-
+import RulesPage from "./pages/RulesPage";
+import CharactersPage from "@/pages/CharactersPage";
 const queryClient = new QueryClient();
 
 const navLinks = [
   { href: "/", label: "World Map" },
   { href: "/regions", label: "Regions" },
   { href: "/handbook", label: "Handbook" },
+  { href: "/rules", label: "Rules" },
+  { href: "/characters", label: "Characters" }
 ];
 
 function NavBar() {
@@ -86,6 +90,8 @@ function Router() {
           <Route path="/" component={MapPage} />
           <Route path="/regions" component={RegionsPage} />
           <Route path="/handbook" component={HandbookPage} />
+          <Route path="/characters" component={CharactersPage} />
+          <Route path="/rules" component={RulesPage} />
           <Route component={NotFound} />
         </Switch>
       </div>

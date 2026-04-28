@@ -49,12 +49,12 @@ function RegionCard({ region }: { region: Region }) {
 
           <div className="flex-1 min-w-0">
             <h3
-              className="text-lg font-bold leading-tight"
+              className="text-2xl font-bold leading-tight"
               style={{ fontFamily: "'Cinzel', serif", color: region.color }}
             >
               {region.name}
             </h3>
-            <p className="text-xs mt-0.5 italic" style={{ color: "rgba(220,190,130,0.6)" }}>
+            <p className="text-lg mt-0.5 italic" style={{ color: "rgba(220,190,130,0.6)" }}>
               {region.subtitle}
             </p>
             <div
@@ -72,10 +72,10 @@ function RegionCard({ region }: { region: Region }) {
           </div>
         </div>
 
-        <p
-          className="mt-3 text-sm italic"
-          style={{ color: "rgba(220,190,130,0.75)", fontFamily: "'IM Fell English', Georgia, serif" }}
-        >
+<p
+  className="mt-3 text-sm leading-relaxed"
+  style={{ color: "rgba(230,210,160,0.85)" }}
+>
           "{region.summary}"
         </p>
       </div>
@@ -207,16 +207,21 @@ export default function RegionsPage() {
           >
             Aetherra World Atlas
           </p>
-          <h1
-            className="text-4xl font-bold mb-3 glow-text"
-            style={{ fontFamily: "'Cinzel Decorative', serif", color: "hsl(40,70%,52%)" }}
-          >
-            Known Regions
-          </h1>
+<h1
+  className="text-3xl md:text-4xl font-bold mb-2"
+  style={{ fontFamily: "'Cinzel Decorative', serif", color: "hsl(40,70%,52%)" }}
+>
+  Known Regions
+</h1>
+
+{/* ✅ เพิ่ม context */}
+<p className="text-sm md:text-base text-yellow-200/80 max-w-xl mx-auto leading-relaxed">
+  Major civilizations and territories across the world of Aetherra Veyl
+</p>
           <div className="ornate-divider max-w-64 mx-auto mt-4">
-            <span className="text-xs italic" style={{ color: "rgba(180,140,60,0.5)", fontFamily: "'IM Fell English', serif" }}>
-              Surface Lands
-            </span>
+<span className="text-sm md:text-base italic tracking-wide text-yellow-200/80">
+  Surface Lands
+</span>
           </div>
         </div>
 
@@ -230,12 +235,9 @@ export default function RegionsPage() {
         {/* Underground Separator */}
         <div className="text-center my-8">
           <div className="ornate-divider max-w-80 mx-auto">
-            <span
-              className="text-xs tracking-widest uppercase"
-              style={{ color: "rgba(138,109,172,0.6)", fontFamily: "'Cinzel', serif" }}
-            >
-              Below the Surface
-            </span>
+<span className="text-sm tracking-wide uppercase text-purple-300/80">
+  Below the Surface
+</span>
           </div>
         </div>
 

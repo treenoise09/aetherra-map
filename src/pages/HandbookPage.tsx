@@ -4,97 +4,164 @@ import { worldInfo } from "@/data/worldData";
 
 const sections = [
   {
-    id: "overview",
-    title: "World Overview",
-    icon: "🌌",
-    content: [
-      {
-        heading: "What is Aetherra?",
-        text: "Aetherra คือโลกที่เวทมนตร์ไหลเวียนอยู่ในทุกสรรพสิ่ง—ตั้งแต่รากไม้ใต้ผืนป่า ไปจนถึงคริสตัลใต้ทะเลทราย และเครื่องจักรเวทในโลกใต้ดิน ผู้คนเชื่อว่าโลกนี้ยังไม่เคย \"สมบูรณ์\" และเวทมนตร์ที่ไหลอยู่คือลมหายใจของสิ่งมีชีวิตขนาดยักษ์ที่เรียกว่า Aetherra Veyl",
-      },
-      {
-        heading: "The World's Heartbeat",
-        text: "ทวีปหลักถูกแบ่งออกเป็นภูมิภาคที่แตกต่างกันอย่างชัดเจน ทั้งอาณาจักรทะเลทรายที่ขับเคลื่อนด้วยความมั่งคั่ง เมืองท่าหมู่เกาะที่เต็มไปด้วยอิสระและอำนาจของกองเรือ ป่าลึกที่มีชีวิตในรากไม้ทุกเส้น ดินแดนน้ำแข็งที่ขับเคลื่อนด้วยศรัทธา และอาณาจักรใต้ดินที่ผสานเครื่องจักรกับเวทมนตร์จนแยกไม่ออก",
-      },
-      {
-        heading: "Something Stirs...",
-        text: "แม้ผู้คนจะใช้ชีวิต ดำเนินการค้า หรือทำสงครามกันตามปกติ แต่ก็มีข่าวลือเล่าขานถึง 'บางสิ่ง' ที่เริ่มเปลี่ยนแปลง—เสียงที่เงียบลงของป่า คริสตัลที่ผิดปกติ พายุที่ไม่เป็นธรรมชาติ บางคนบอกว่า Aetherra Veyl กำลังตื่น",
-      },
-      {
-        heading: "Your Role",
-        text: "ในโลกนี้ คุณสามารถเป็นได้ทุกอย่าง—นักผจญภัย พ่อค้า ทหารรับจ้าง หรือผู้แสวงหาความจริง แต่ไม่ว่าคุณจะเลือกเส้นทางใด… โลกนี้จะ 'ตอบสนอง' ต่อคุณเสมอ",
-      },
-    ],
-  },
+  id: "overview",
+  title: "World Overview",
+  icon: "🌌",
+  content: [
+    {
+      heading: "A New Beginning",
+      text: "Aetherra เป็นโลกที่กว้างใหญ่และเต็มไปด้วยเส้นทางที่ยังไม่ถูกค้นพบ เมือง อาณาจักร และผู้คนดำเนินชีวิตของตนไปในแบบที่คุ้นเคย แต่สำหรับผู้ที่เลือกออกเดินทาง โลกใบนี้ยังมีอีกมากให้เรียนรู้"
+    },
+
+    {
+      heading: "A Living World",
+      text: "แต่ละภูมิภาคของ Aetherra มีเอกลักษณ์ของตัวเอง—บางแห่งรุ่งเรืองด้วยการค้า บางแห่งยึดมั่นในศรัทธา ขณะที่บางแห่งยังคงอยู่ร่วมกับธรรมชาติอย่างระมัดระวัง ไม่มีที่ใดเหมือนกัน และทุกที่ล้วนมีเรื่องราวของตัวเอง"
+    },
+
+    {
+      heading: "Magic in Everyday Life",
+      text: "เวทมนตร์มีอยู่ในโลกนี้ แม้จะไม่ใช่สิ่งที่พบได้ทั่วไปสำหรับทุกคน บางคนใช้มันเป็นเครื่องมือ บางคนศึกษาเพื่อเข้าใจมัน และอีกหลายคนเลือกที่จะอยู่ห่างจากมัน สิ่งที่แน่ชัดคือ—มันยังคงเป็นสิ่งที่ไม่ถูกเข้าใจอย่างสมบูรณ์"
+    },
+
+    {
+      heading: "Quiet Changes",
+      text: "ในช่วงหลัง มีเหตุการณ์เล็กๆ ที่เริ่มถูกพูดถึง—ธรรมชาติบางแห่งเงียบลง คริสตัลบางชิ้นเปลี่ยนแปลงโดยไม่มีสาเหตุ และสภาพอากาศบางครั้งก็ไม่เป็นไปตามที่ควรจะเป็น สิ่งเหล่านี้อาจไม่มีความหมาย…หรืออาจเป็นจุดเริ่มต้นของบางสิ่ง"
+    },
+
+    {
+      heading: "Aetherra Veyl",
+      text: "มีชื่อหนึ่งที่ปรากฏขึ้นในเรื่องเล่าและบันทึกเก่า—Aetherra Veyl ไม่มีใครสามารถอธิบายได้ชัดเจนว่ามันคืออะไร บางคนมองว่าเป็นเพียงตำนาน แต่บางคนก็ยังคงเฝ้าสังเกตโลกนี้…เผื่อว่ามันอาจเป็นมากกว่านั้น"
+    },
+
+    {
+      heading: "Your Role",
+      text: "ในโลกนี้ คุณสามารถเป็นได้ทุกอย่าง—นักผจญภัย พ่อค้า ทหารรับจ้าง หรือผู้แสวงหาความจริง แต่ไม่ว่าคุณจะเลือกเส้นทางใด… โลกนี้จะ 'ตอบสนอง' ต่อคุณเสมอ",
+    },
+  ],
+},
   {
-    id: "magic",
-    title: "Magic in Aetherra",
-    icon: "✨",
-    content: [
-      {
-        heading: "The Flow of Magic",
-        text: "Magic in Aetherra is not simply a tool — it is the lifeblood of the world itself. Every crystal, every root, every stone has some trace of magical energy running through it. Those who learn to listen can hear the world breathe.",
-      },
-      {
-        heading: "Crystal Magic",
-        text: "The most common and visible form of magic manifests through crystals found deep in desert sands. These crystals store, amplify, and transmit magical energy across vast distances. The Saraketh Dominion has built its entire economy on their harvest and trade.",
-      },
-      {
-        heading: "Nature Magic",
-        text: "In Elthanir Verdancy, magic flows through roots and living things. The trees themselves are ancient conduits of power. Those blessed by the forest can communicate with spirits, grow plants in moments, and hear the whispers of things long past.",
-      },
-      {
-        heading: "Magitek",
-        text: "The Ironwald Imperium has taken a different path — fusing magical principles with mechanical engineering to create Magitek. Their machines run on extracted magical energy, and their artificers are considered the most dangerous minds on (or under) the continent.",
-      },
-    ],
-  },
+  id: "magic",
+  title: "Magic in Aetherra",
+  icon: "✨",
+  content: [
+    {
+      heading: "What Magic Really Is",
+      text: "ใน Aetherra เวทมนตร์ไม่ใช่สิ่งที่ทุกคนใช้ได้ และไม่ใช่พลังที่เข้าใจอย่างแท้จริง มันถูกมองว่าเป็นปรากฏการณ์ที่สามารถควบคุมได้บางส่วนผ่านการฝึกฝน เครื่องมือ หรือทรัพยากรเฉพาะ ผู้ใช้เวทจึงมีจำนวนน้อย และมักอยู่ภายใต้การฝึกหรือองค์กรบางอย่าง"
+    },
+
+    {
+      heading: "Sources of Power",
+      text: "เวทมนตร์ในโลกนี้มักต้องพึ่งพา 'แหล่งพลัง' บางรูปแบบ เช่น คริสตัล สภาพแวดล้อม หรืออุปกรณ์เฉพาะ สิ่งเหล่านี้ช่วยให้ผู้ใช้สามารถเรียกใช้พลังได้อย่างเสถียรมากขึ้น แต่ก็ทำให้เวทมนตร์กลายเป็นทรัพยากรที่มีค่า และไม่สามารถใช้ได้อย่างอิสระ"
+    },
+
+    {
+      heading: "Crystal Usage",
+      text: "คริสตัลเป็นหนึ่งในแหล่งพลังที่พบได้บ่อยที่สุด โดยเฉพาะใน Saraketh Dominion บางชนิดสามารถเก็บหรือถ่ายเทพลังงานได้ ทำให้ถูกนำไปใช้ในอุปกรณ์ เวทสนับสนุน หรือการรักษา อย่างไรก็ตาม การใช้งานยังมีข้อจำกัด และคริสตัลบางประเภทมีความไม่เสถียรที่ยังอธิบายไม่ได้"
+    },
+
+    {
+      heading: "Natural Affinity",
+      text: "ในบางภูมิภาค เช่น Elthanir Verdancy ผู้คนเชื่อว่าสภาพแวดล้อมมีผลต่อการใช้เวทมนตร์ ผู้ที่ฝึกฝนในพื้นที่เหล่านี้อาจสามารถใช้พลังได้ดีขึ้น แต่สิ่งนี้ดูเหมือนจะขึ้นอยู่กับประสบการณ์และความเข้าใจ มากกว่าจะเป็นพรจากสิ่งเหนือธรรมชาติ"
+    },
+
+    {
+      heading: "Magitek",
+      text: "Ironwald Imperium พัฒนาแนวทางที่ต่างออกไป โดยพยายามเปลี่ยนเวทมนตร์ให้กลายเป็นพลังงานที่ควบคุมได้ผ่านเทคโนโลยี ระบบเหล่านี้ช่วยให้คนที่ไม่สามารถใช้เวทได้โดยตรงยังสามารถเข้าถึงพลังบางส่วนได้ แต่ก็มาพร้อมกับต้นทุนสูงและความเสี่ยงที่ยังไม่ถูกเข้าใจทั้งหมด"
+    },
+  ],
+},
+{
+  id: "classes",
+  title: "Classes & Magic Users",
+  icon: "🧭",
+  content: [
+    {
+      heading: "Adventurers in Aetherra",
+      text: "ใน Aetherra ผู้คนไม่ได้ถูกแบ่งออกเป็น 'คลาส' อย่างชัดเจนเหมือนในตำรา แต่คำเหล่านี้ถูกใช้โดยนักผจญภัยและกิลด์เพื่ออธิบายความสามารถของแต่ละคน อาชีพส่วนใหญ่เกิดจากการฝึกฝน ประสบการณ์ และสภาพแวดล้อม มากกว่าพรสวรรค์เพียงอย่างเดียว"
+    },
+
+    {
+      heading: "Martial Paths",
+      text: "นักรบ ทหารรับจ้าง และนักล่าค่าหัวเป็นสิ่งที่พบได้ทั่วไปในทุกภูมิภาค คนกลุ่มนี้พึ่งพาทักษะร่างกาย อาวุธ และประสบการณ์มากกว่าเวทมนตร์ พวกเขาเป็นกำลังหลักของกองทัพ คาราวาน และกองเรือ\n\nตัวอย่าง: Fighter, Rogue, Barbarian, Monk"
+    },
+
+    {
+      heading: "Trained Magic Users",
+      text: "ผู้ใช้เวทมนตร์โดยตรงมีจำนวนน้อย และมักต้องผ่านการฝึกฝนอย่างจริงจัง ไม่ว่าจะเป็นการเรียนรู้จากสำนัก การทดลองด้วยตนเอง หรือการทำงานกับทรัพยากรอย่างคริสตัล ผู้ใช้เวทส่วนใหญ่จะมีขอบเขตความสามารถที่ชัดเจน และไม่สามารถใช้พลังได้อย่างไม่จำกัด\n\nตัวอย่าง: Wizard, Sorcerer, Warlock"
+    },
+
+    {
+      heading: "Faith and Discipline",
+      text: "ในบางภูมิภาค เช่น Frostspire ผู้ใช้เวทมนตร์เชื่อมโยงกับศรัทธาและหน้าที่ Cleric และ Paladin ไม่ได้เป็นเพียงผู้ใช้เวท แต่เป็นตัวแทนของความเชื่อและระเบียบในสังคม พลังของพวกเขามักถูกมองว่าเป็นผลของความศรัทธา มากกว่าสิ่งเหนือธรรมชาติที่อธิบายไม่ได้\n\nตัวอย่าง: Cleric, Paladin"
+    },
+
+    {
+      heading: "Natural Practitioners",
+      text: "ผู้ที่อาศัยอยู่ใกล้ชิดกับธรรมชาติ เช่นใน Elthanir อาจพัฒนาความสามารถในการใช้เวทที่สอดคล้องกับสภาพแวดล้อม พลังของพวกเขามักมาในรูปแบบที่เรียบง่ายและมีข้อจำกัด แต่มีความยืดหยุ่นสูง\n\nตัวอย่าง: Druid, Ranger"
+    },
+
+    {
+      heading: "Magitek Specialists",
+      text: "ใน Ironwald มีผู้เชี่ยวชาญที่ใช้เทคโนโลยีเพื่อทดแทนเวทมนตร์ อุปกรณ์ Magitek ช่วยให้ผู้ที่ไม่สามารถใช้เวทได้โดยตรงสามารถเข้าถึงพลังบางส่วนได้ แต่ต้องอาศัยความรู้ เครื่องมือ และทรัพยากรจำนวนมาก\n\nตัวอย่าง: Artificer"
+    },
+
+    {
+      heading: "Limits of Power",
+      text: "ไม่ว่าคุณจะอยู่ในเส้นทางใด พลังใน Aetherra มีขีดจำกัด ผู้ใช้เวทไม่สามารถร่ายคาถาได้อย่างต่อเนื่องโดยไม่มีผลกระทบ และนักรบก็ไม่สามารถต่อสู้ได้โดยไม่พักผ่อน ความแข็งแกร่งมักมาจากการวางแผน ทรัพยากร และการร่วมมือมากกว่าพลังเพียงอย่างเดียว"
+    },
+
+    {
+      heading: "Reputation Matters",
+      text: "ในโลกนี้ สิ่งที่ผู้คนมองเห็นสำคัญพอ ๆ กับความสามารถจริง นักผจญภัยที่มีชื่อเสียงจะได้รับความไว้วางใจ โอกาส และทรัพยากรที่มากขึ้น ขณะที่ผู้ใช้เวทมนตร์ที่ไม่เป็นที่รู้จักอาจถูกระแวงหรือหลีกเลี่ยง"
+    },
+  ],
+},
   {
-    id: "fareast",
-    title: "Far East Quarter",
-    icon: "🏮",
-    content: [
-      {
-        heading: "A District Found Everywhere",
-        text: "The Far East Quarter is not a place on any map — it is a presence in every major city. In every port, trade hub, and capital you will find a district where travelers from distant Eastern lands have settled, traded, and built community.",
-      },
-      {
-        heading: "What You'll Find",
-        text: "Exotic foods and spices, unfamiliar languages and scripts, wandering swordmasters teaching ancient martial traditions, and merchants dealing in goods no local trader has ever seen. The Far East is a world within the world.",
-      },
-      {
-        heading: "Community & Culture",
-        text: "Those from the Far East tend to form tight-knit communities, supporting each other in foreign lands. They may look different, speak differently, and follow customs unfamiliar to locals — but they are woven into the fabric of every major city in Aetherra.",
-      },
-      {
-        heading: "Playing a Far Eastern Character",
-        text: "Players may choose to originate from the Far East Quarter without needing to define or name a home continent. Your character simply comes from 'the East' — a background as rich as any other, with unique martial training, cultural knowledge, and trade connections.",
-      },
-    ],
-  },
+  id: "fareast",
+  title: "Far East Quarter",
+  icon: "🏮",
+  content: [
+    {
+      heading: "ย่านที่มีอยู่ทุกแห่ง",
+      text: "Far East Quarter ไม่ใช่สถานที่ที่ปรากฏอยู่บนแผนที่ใด ๆ แต่มันคือย่านที่สามารถพบได้ในทุกเมืองใหญ่ ไม่ว่าจะเป็นเมืองท่า ศูนย์กลางการค้า หรือเมืองหลวง ที่นั่นมักมีผู้คนจากดินแดนตะวันออกมาตั้งถิ่นฐาน ค้าขาย และสร้างชุมชนของตนเอง",
+    },
+    {
+      heading: "สิ่งที่คุณจะพบ",
+      text: "อาหารและเครื่องเทศที่ไม่คุ้นเคย ภาษาและตัวอักษรแปลกตา นักดาบพเนจรที่ถ่ายทอดวิชาการต่อสู้แบบโบราณ และพ่อค้าที่นำสินค้าซึ่งคนท้องถิ่นไม่เคยเห็นมาก่อน Far East จึงเปรียบเสมือนโลกอีกใบที่ซ่อนอยู่ภายในโลกเดิม",
+    },
+    {
+      heading: "ชุมชนและวัฒนธรรม",
+      text: "ผู้คนจาก Far East มักรวมตัวกันเป็นชุมชนที่แน่นแฟ้น คอยช่วยเหลือกันในดินแดนที่ไม่ใช่บ้านเกิด พวกเขาอาจมีรูปลักษณ์ ภาษา หรือธรรมเนียมที่แตกต่างจากคนท้องถิ่น แต่ก็กลายเป็นส่วนหนึ่งของชีวิตในเมืองใหญ่ของ Aetherra อย่างแยกไม่ออก",
+    },
+    {
+      heading: "การสร้างตัวละครจาก Far East",
+      text: "ผู้เล่นสามารถเลือกให้ตัวละครมีต้นกำเนิดจาก Far East Quarter ได้ โดยไม่จำเป็นต้องระบุหรือสร้างทวีปต้นกำเนิดอย่างละเอียด(วัฒนธรรมเอเชียอาคเนย์ ไทย,จีน,ญี่ปุ่น,เกาหลี,ฯลฯ) ตัวละครของคุณเพียงมาจาก 'ดินแดนตะวันออก' ซึ่งเปิดโอกาสให้มีทั้งพื้นฐานทางวัฒนธรรม วิชาการต่อสู้ และเครือข่ายการค้าที่เป็นเอกลักษณ์",
+    },
+  ],
+},
   {
-    id: "rules",
-    title: "Player Guidelines",
-    icon: "📜",
-    content: [
-      {
-        heading: "Character Backgrounds",
-        text: "Each region offers distinct character origins. Your background shapes not just your skills and abilities, but how the world reacts to you. A Saraketh merchant and an Elthanir ranger will be treated very differently in the same tavern.",
-      },
-      {
-        heading: "The World Responds",
-        text: "Aetherra is a living world. Your actions have consequences not just with NPCs, but potentially with the land itself. Strange things have been noticed: crystals reacting to nearby magic users, forests growing silent when outsiders approach, storms breaking at unusual intervals.",
-      },
-      {
-        heading: "Multiple Origins Accepted",
-        text: "Not every character needs a specific regional origin. You may be a wanderer, a refugee, a traveler who has spent years between all regions. The Far East Quarter also provides a flexible origin that works in any city.",
-      },
-      {
-        heading: "Unknown Regions",
-        text: "There are places not on this map. Rumors speak of lands beyond the eastern sea, of something ancient beneath the Underdark, and of territories even the Ironwald Imperium has never mapped. These are for the campaign to discover.",
-      },
-    ],
-  },
+  id: "rules",
+  title: "แนวทางสำหรับผู้เล่น",
+  icon: "📜",
+  content: [
+    {
+      heading: "พื้นหลังตัวละคร",
+      text: "แต่ละภูมิภาคมีที่มาของตัวละครที่แตกต่างกัน พื้นหลังของคุณไม่ได้กำหนดแค่ทักษะหรือความสามารถเท่านั้น แต่ยังมีผลต่อวิธีที่โลกตอบสนองต่อคุณด้วย พ่อค้าจาก Saraketh และนักล่าจาก Elthanir อาจได้รับการปฏิบัติแตกต่างกันอย่างชัดเจน แม้อยู่ในสถานที่เดียวกัน"
+    },
+    {
+      heading: "โลกมีการตอบสนอง",
+      text: "Aetherra เป็นโลกที่มีการเคลื่อนไหวและเปลี่ยนแปลงอยู่เสมอ การกระทำของคุณส่งผลต่อทั้งผู้คนและสิ่งแวดล้อมรอบตัว มีรายงานถึงปรากฏการณ์แปลก ๆ เช่น คริสตัลที่ตอบสนองต่อผู้ใช้เวท ป่าที่เงียบผิดปกติเมื่อมีคนนอกเข้าไป หรือพายุที่เกิดขึ้นโดยไม่มีรูปแบบแน่นอน"
+    },
+    {
+      heading: "ไม่จำเป็นต้องมีต้นกำเนิดเดียว",
+      text: "ตัวละครไม่จำเป็นต้องยึดติดกับภูมิภาคใดภูมิภาคหนึ่ง คุณอาจเป็นนักเดินทาง ผู้ลี้ภัย หรือคนที่ใช้ชีวิตข้ามหลายดินแดน ย่าน Far East Quarter ก็เป็นอีกทางเลือกที่ยืดหยุ่นและสามารถใช้เป็นต้นกำเนิดได้ในทุกเมืองใหญ่"
+    },
+    {
+      heading: "ดินแดนที่ยังไม่ถูกค้นพบ",
+      text: "ยังมีสถานที่อีกมากที่ไม่ปรากฏบนแผนที่ ข่าวลือกล่าวถึงดินแดนไกลออกไปทางตะวันออก สิ่งโบราณใต้ดินลึก และพื้นที่ที่แม้แต่ Ironwald ก็ยังไม่สามารถสำรวจได้ สิ่งเหล่านี้รอให้ถูกค้นพบภายในแคมเปญ"
+    },
+  ],
+},
 ];
 
 export default function HandbookPage() {

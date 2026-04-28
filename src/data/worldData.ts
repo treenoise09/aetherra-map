@@ -48,8 +48,7 @@ export const regions: Region[] = [
     danger: "Sandstorms, Desert Beasts & Crime",
     suitedFor: "Merchant, Adventurer, Rogue",
     summary: "A land of opportunity — but everything has a price.",
-    lore: "Saraketh Dominion คืออาณาจักรทะเลทรายอันมั่งคั่งที่รุ่งเรืองจากคริสตัลเวทมนตร์และการค้า เมืองหลวง Solkarah เป็นศูนย์กลางการค้าที่คึกคักที่สุดในทวีป เต็มไปด้วยพ่อค้า คาราวาน และนักผจญภัย ทองคำและคริสตัลไหลเวียนเหมือนน้ำ แต่ความอันตรายซ่อนอยู่ในทุกมุมมืด",
-    population: [
+lore: "Saraketh Dominion ตั้งอยู่กลางทะเลทรายกว้างใหญ่ที่ทั้งโหดร้ายและเต็มไปด้วยโอกาส เมือง Solkarah เติบโตขึ้นรอบโอเอซิสโบราณ และกลายเป็นศูนย์กลางการค้าที่สำคัญที่สุดแห่งหนึ่งของทวีป คาราวานเดินทางข้ามทะเลทรายเพื่อนำพาคริสตัลและทรัพยากรหายากเข้าสู่ตลาด\n\nคริสตัลจากผืนทรายถูกเชื่อว่ามีคุณสมบัติพิเศษ บางชนิดสามารถกักเก็บพลังงานหรือถูกนำไปใช้ในงานเวทขั้นสูง แม้จะมีการใช้งานอย่างแพร่หลาย แต่แทบไม่มีใครเข้าใจธรรมชาติของมันอย่างแท้จริง\n\nภายใต้ความมั่งคั่ง เมืองนี้ขับเคลื่อนด้วยอำนาจของตระกูลพ่อค้าและเครือข่ายผลประโยชน์ ทุกข้อตกลงมีราคา และไม่ใช่ทุกความจริงที่จะถูกเปิดเผย",    population: [
       { race: "Human", percent: 60, role: "Laborers / Adventurers / Citizens" },
       { race: "Tiefling", percent: 20, role: "Merchant Class / Politicians" },
       { race: "Half-Elf", percent: 10, role: "Mixed Roles" },
@@ -84,8 +83,7 @@ export const regions: Region[] = [
     danger: "Sea Storms, Sea Monsters & Fleet Conflicts",
     suitedFor: "Rogue, Bard, Sailor, Adventurer",
     summary: "A land of freedom — but the sea shows no mercy.",
-    lore: "Veramor คือสหพันธรัฐหมู่เกาะที่รุ่งเรืองจากการเดินเรือและการค้า เป็นจุดเชื่อมต่อสำคัญของเส้นทางทะเลทั่วทั้งทวีป เมืองท่า Veramor Port เต็มไปด้วยกะลาสี พ่อค้า และนักผจญภัยที่แสวงหาโชคลาภและอิสรภาพบนคลื่น",
-    population: [
+lore: "Veramor คือกลุ่มหมู่เกาะที่ตั้งอยู่ท่ามกลางทะเลลึก ซึ่งขึ้นชื่อเรื่องพายุที่รุนแรงและเส้นทางเดินเรือที่คาดเดาได้ยาก เมืองท่าอย่าง Veramor Port จึงกลายเป็นจุดรวมของกะลาสี พ่อค้า และผู้ที่ใช้ชีวิตบนทะเล\n\nอำนาจใน Veramor ไม่ได้มาจากกฎหมายกลาง แต่ขึ้นอยู่กับกองเรือและกัปตันที่ผู้คนยอมรับ เส้นทางการค้า การขนส่ง และข่าวสารล้วนถูกควบคุมผ่านเครือข่ายเหล่านี้\n\nแม้จะมีการใช้เวทมนตร์อยู่บ้าง—โดยเฉพาะในด้านการเดินเรือ—แต่ทะเลยังคงเป็นสิ่งที่ไม่มีใครควบคุมได้อย่างแท้จริง และผู้ที่ประมาท มักไม่กลับขึ้นฝั่ง",    population: [
       { race: "Human", percent: 50, role: "Sailors / Traders" },
       { race: "Goliath / Orc / Half-Orc", percent: 20, role: "Warriors / Crew" },
       { race: "Beastfolk", percent: 20, role: "Scouts / Hunters" },
@@ -120,8 +118,7 @@ export const regions: Region[] = [
     danger: "Wild Beasts, Nature Spirits & Forbidden Zones",
     suitedFor: "Druid, Healer, Ranger",
     summary: "A land of balance — but the forest doesn't welcome everyone.",
-    lore: "Elthanir Verdancy คือดินแดนแห่งป่าโบราณที่ผู้คนใช้ชีวิตร่วมกับธรรมชาติอย่างกลมกลืน เมือง Sylvandor ถูกสร้างขึ้นท่ามกลางต้นไม้ยักษ์และผืนป่าศักดิ์สิทธิ์ ผู้พิทักษ์ป่าคือผู้ที่ได้รับพรจากธรรมชาติเอง",
-    population: [
+lore: "Elthanir Verdancy เป็นผืนป่าโบราณที่มีความอุดมสมบูรณ์ผิดปกติ ต้นไม้ขนาดมหึมาและรากไม้ที่แผ่ขยายลึกลงใต้ดินทำให้ภูมิประเทศที่นี่เปลี่ยนแปลงได้ยาก\n\nผู้คนในภูมิภาคนี้ใช้ชีวิตอย่างระมัดระวังและพยายามรักษาสมดุลกับธรรมชาติ พวกเขาเชื่อว่าป่ามีลักษณะบางอย่างที่ 'ตอบสนอง' ต่อสิ่งรอบตัว แม้จะไม่มีหลักฐานชัดเจน แต่เหตุการณ์หลายอย่างทำให้ความเชื่อนี้ยังคงอยู่\n\nเมือง Sylvandor ถูกสร้างขึ้นให้กลมกลืนกับสภาพแวดล้อม แทนที่จะควบคุมมัน และผู้ที่ไม่เข้าใจกฎของป่า มักจะหลงทางหรือหายไปโดยไม่มีร่องรอย",    population: [
       { race: "Human", percent: 40, role: "Villagers / Rangers" },
       { race: "Elf", percent: 30, role: "Guardians / Lore-keepers" },
       { race: "Firbolg", percent: 15, role: "Forest Wardens" },
@@ -156,8 +153,7 @@ export const regions: Region[] = [
     danger: "Extreme Cold, Blizzards & Mountain Hazards",
     suitedFor: "Knight, Paladin, Cleric",
     summary: "A land of faith — where holiness and brutality walk side by side.",
-    lore: "Frostspire Theocracy คืออาณาจักรแห่งภูเขาน้ำแข็งที่ตั้งอยู่ท่ามกลางพายุหิมะอันโหดร้าย เมืองหลวง Frostspire ถูกสร้างรอบมหาวิหารศักดิ์สิทธิ์และป้อมปราการสูงตระหง่าน ศรัทธาคือทุกสิ่ง",
-    population: [
+lore: "Frostspire Theocracy ตั้งอยู่ท่ามกลางเทือกเขาน้ำแข็งและสภาพอากาศที่โหดร้าย เมืองถูกสร้างขึ้นเพื่อความอยู่รอดเป็นหลัก ทั้งกำแพง ป้อมปราการ และมหาวิหารต่างมีบทบาทในชีวิตประจำวัน\n\nศรัทธาเป็นศูนย์กลางของสังคม ผู้คนเชื่อว่าความหนาวและภัยจากภายนอกเป็นบททดสอบที่ต้องฝ่าฟัน อัศวินและนักบวชจึงมีบทบาทสำคัญในการปกป้องเมือง\n\nมีรายงานการพบมังกรและสิ่งมีชีวิตขนาดใหญ่ในภูเขา แม้จะไม่เกิดขึ้นบ่อย แต่ก็เพียงพอที่จะทำให้ภัยคุกคามนี้ยังคงเป็นเรื่องจริงสำหรับผู้คนในภูมิภาค",    population: [
       { race: "Human", percent: 70, role: "Knights / Clergy / Citizens" },
       { race: "Elf", percent: 20, role: "Nobility / Holy Order" },
       { race: "Others", percent: 10, role: "Various" },
@@ -212,18 +208,30 @@ export const regions: Region[] = [
 export const worldInfo = {
   name: "Aetherra",
   fullName: "Aetherra Veyl",
-  tagline: "Where Magic Flows Through All Living Things",
-  description: "Aetherra คือโลกที่เวทมนตร์ไหลเวียนอยู่ในทุกสรรพสิ่ง ตั้งแต่รากไม้ใต้ผืนป่า ไปจนถึงคริสตัลใต้ทะเลทราย และเครื่องจักรเวทในโลกใต้ดิน",
-  warning: "Something stirs in the silence of the forest. Crystals pulse with unknown energy. Storms break natural patterns. The world of Aetherra is responding to something...",
+
+  tagline: "A World Touched by Hidden Magic",
+
+  description:
+    "Aetherra คือโลกที่ดูเหมือนธรรมดาในสายตาของคนส่วนใหญ่—อาณาจักร การค้า และสงครามดำเนินไปตามปกติ แต่ลึกลงไปในธรรมชาติ มีบางสิ่งที่ไม่อาจอธิบายได้ไหลเวียนอยู่",
+
+  coreConcept:
+    "บางคนเชื่อว่าเวทมนตร์ไม่ใช่เพียงพลัง แต่เป็น 'กระแส' ของสิ่งที่ยิ่งใหญ่กว่านั้น—สิ่งที่ถูกเรียกว่า Aetherra Veyl แม้จะไม่มีหลักฐานชัดเจน แต่เหตุการณ์หลายอย่างในโลกนี้ดูเหมือนจะเชื่อมโยงกันอย่างน่าประหลาด",
+
+  currentState:
+    "ช่วงหลังเริ่มมีเหตุการณ์ผิดปกติ—คริสตัลเสื่อมสภาพ ป่าบางแห่งเงียบผิดปกติ และพายุเกิดโดยไม่มีรูปแบบ นักวิชาการบางคนเริ่มตั้งคำถามว่าโลกนี้กำลังเปลี่ยนแปลงหรือไม่",
+
+  warning:
+    "Strange patterns emerge. Nature behaves... differently. Few notice — fewer understand.",
+
   farEast: {
     name: "Far East Quarter",
-    description: "Found in every major city — a district of Eastern traders, warriors, and mysterious arts from distant lands.",
+    description:
+      "ย่านชุมชนของผู้คนจากดินแดนตะวันออกที่ปรากฏอยู่ในเมืองใหญ่ แม้ไม่มีใครรู้ว่าพวกเขามาจากที่ใดแน่ชัด",
     traits: [
-      "Foreign Quarter found in all major cities",
-      "Exotic food, language & culture",
-      "Wandering swordmasters & strange martial arts",
-      "Rare goods trading hub",
-      "Close-knit community bonds",
+      "Present in major trade cities",
+      "Distinct culture and traditions",
+      "Independent trade networks",
+      "Tightly connected communities",
     ],
   },
 };
